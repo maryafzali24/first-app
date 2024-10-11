@@ -7,21 +7,21 @@ const data = [
     title: "Lemon Ice Cream",
     description: "Mind blowing test",
     image: "https://picsum.photos/200/300/?random",
-    prince: "$4.50",
+    price: "$4.50",
   },
   {
     id:"3",
     title: "Chocoloate mousse",
     description: "Unexplored flavour",
     image: "https://picsum.photos/200/300/?random",
-    prince: "$6.00",
+    price: "$6.00",
   }
 ]
 
 const topDesserts = data.map(dessert => {
   return {
     content: `${dessert.title} - ${dessert.description}`,
-    price: dessert.pricwe,
+    price: dessert.price,
   }
 })
 
